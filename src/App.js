@@ -1,6 +1,7 @@
 import './App.css';
 import f from './images/f.jpg'
 import Pic1 from './images/Pic1.jpg'
+import logo from './images/logo.png'
 
 
 
@@ -37,8 +38,13 @@ function App() {
         </div>
       </div>
 
+      <div className="logo">
+        <div className="logoimg">
+          <img src={logo} alt="logo"/>
+        </div>
+      </div>
+      
       <div className="Footer">
-    
         <h1>Social</h1>
         <a href="no_target">Facebook</a>
         <a href="no_target">Instagram</a>
