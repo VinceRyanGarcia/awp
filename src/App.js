@@ -3,7 +3,7 @@ import Navigation from './Navigation/Navigation'
 import Cover from './Cover/Cover'
 import Player from './Player/Player'
 import Footer from './Footer/Footer'
-
+import Soundcloud from './Soundcloud/Soundcloud';
 
 
 
@@ -15,6 +15,7 @@ function App() {
         <Navigation></Navigation>
         <Cover></Cover>
         <Player></Player>
+        <Soundcloud></Soundcloud>
         
        
 

@@ -18,6 +18,7 @@ const Content = styled.div`
     align-items:center;
     z-index:1;
     width:100%;
+    height:100vw;
     `
 const AwpImage = styled.img`
     width:75%;
