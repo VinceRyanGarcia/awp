@@ -24,14 +24,14 @@ const Header = styled.div`
     justify-content:space-between;
     align-items:center;
     background-color:black;
-    height:3vh;
+    height:2.5vh;
     z-index:2;
+    margin-bottom:-10vh;
 `
 
 const Nav = styled.a`
     display:flex;
     justify-content:flex-end;
-    font-family:Arial, Helvetica, sans-serif;
     font-weight:bold;
     color:white;
     text-decoration:none;

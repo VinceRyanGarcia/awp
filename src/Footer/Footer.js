@@ -34,7 +34,7 @@ const Header = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-color:#000000;
+    background-color:green;
     height:auto;
     font-family:arial;
     padding:1vh;

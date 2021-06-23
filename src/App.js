@@ -11,11 +11,9 @@ function App() {
   return (
     <div className="App">
       
-        <Navigation></Navigation>
-        <Content>  
+        {/* <Navigation></Navigation> */}
           <Cover></Cover>
           <Player></Player>
-        </Content>
         <Footer></Footer>
       
     </div>
@@ -24,7 +22,3 @@ function App() {
 
 export default App;
 
-const Content = styled.div`
-    margin-left:10vw;
-    margin-right:10vw;  
-  `
