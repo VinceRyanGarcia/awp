@@ -10,8 +10,7 @@ export default function Player() {
                 <ReactPlayer    
                     url='https://www.youtube.com/watch?v=3WLcI1uSMdI&list=PLvy4Kx3QEN5QEHxhS9DEa5_D16aMyE5zO' 
                     loop="true" 
-                    width="70vw"
-                    height="500px"
+                    width="100%"
                    />
             </center>
         </Media>
