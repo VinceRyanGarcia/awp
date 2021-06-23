@@ -1,7 +1,6 @@
 import './App.css';
-import awp from './images/awp.jpg'
 import f from './images/f.jpg'
-import ReactPlayer from 'react-player'
+import Pic1 from './images/Pic1.jpg'
 
 
 
@@ -11,11 +10,12 @@ function App() {
     <div className="App">
 
       <div className="Cover">
-        <img src={awp} alt="cover"></img>
+        <center><img src={Pic1} alt="cover"/></center>
       </div>
 
       <div className="Container1">
         <div className="Box">
+          <h1>Upcoming Shows</h1>
           <img src={f} alt="f" width='300px'/>
         </div>
       </div>
@@ -37,20 +37,18 @@ function App() {
         </div>
       </div>
 
-      
-      
-    
-
       <div className="Footer">
+    
         <h1>Social</h1>
-        <a href="no_target">facebook</a>
-        <a href="no_target">instagram</a>
-        <a href="no_target">twitter</a>
-        <a href="no_target">youtube</a>
-        <a href="no_target">linkedin</a>
+        <a href="no_target">Facebook</a>
+        <a href="no_target">Instagram</a>
+        <a href="no_target">Twitter</a>
+        <a href="no_target">Youtube</a>
+        <a href="no_target">Linkedin</a>
 
         <h1>Contact</h1>
         <p>awp@awperations.com</p>
+        <p>Copyright ©2021 Awperations. All Rights Reserved</p>
       </div>
     </div>
   );
