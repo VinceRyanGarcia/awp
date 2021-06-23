@@ -17,8 +17,7 @@ export default function Footer() {
                 <a href="https://www.youtube.com/Iamawp">Youtube</a>
             </Nav>
             <Stay>
-            CONTACT<br></br>
-            AWP@AWPERATIONS.COM
+            CONTACT
             </Stay>
         </Header>
         </>
@@ -32,18 +31,18 @@ const Header = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-color:darkred;
+    background-color:black;
     height:3vh
     font-family:Arial, Helvetica, sans-serif;
 `
 
 const Stay = styled.div`
     display:flex;
-    text-align:center;
+    text-align:Center;
     font-family:'times';
     font-weight:bold;
     justify-content:center;
-    background-color:green;
+    font-size:2em;
 `
 
 const Nav = styled.a`
