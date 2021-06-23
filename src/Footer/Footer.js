@@ -32,8 +32,9 @@ const Header = styled.div`
     justify-content:center;
     align-items:center;
     background-color:black;
-    height:3vh
-    font-family:Arial, Helvetica, sans-serif;
+    height:auto;
+    font-family:Times;
+    padding:10vh;
 `
 
 const Stay = styled.div`
@@ -43,6 +44,8 @@ const Stay = styled.div`
     font-weight:bold;
     justify-content:center;
     font-size:2em;
+    margin-bottom:2vh;
+    margin-top:2vh;
 `
 
 const Nav = styled.a`

@@ -11,14 +11,11 @@ import Soundcloud from './Soundcloud/Soundcloud';
 function App() {
   return (
     <div className="App">
-{/*       
-        <Navigation></Navigation> */}
+      
+        {/* <Navigation></Navigation> */}
         <Cover></Cover>
         <Player></Player>
         <Soundcloud></Soundcloud>
-        
-       
-
         <Footer></Footer>
       
     </div>

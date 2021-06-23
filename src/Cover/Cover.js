@@ -16,10 +16,7 @@ const Content = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    z-index:1;
     width:100%;
     height:100vw;
+    background-color:black;
     `
-const AwpImage = styled.img`
-    width:75%;
-`
