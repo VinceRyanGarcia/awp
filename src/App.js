@@ -2,7 +2,7 @@ import './App.css';
 import f from './images/f.jpg'
 import Pic1 from './images/Pic1.jpg'
 import logo from './images/logo.png'
-
+import banner from './images/banner.jpg'
 
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <div className="App">
 
       <div className="Cover">
-        <center><img src={Pic1} alt="cover"/></center>
+        <center><img src={banner} alt="cover"/></center>
       </div>
-      <div className="Container1">
+      {/* <div className="Container1">
         <div className="Box1">
           <h1>test</h1>
          <a href="no_target">test</a>
@@ -20,20 +20,22 @@ function App() {
          <a href="no_target">test</a>
 
          </div> 
+      </div> */}
+      
+
+      <div className="Container2">
+        <div className="Box2">
+          <h1>Upcoming Shows</h1>
+          <img src={f} className="wg" alt="f" width='280px'/>
+        </div>
       </div>
+
       <div className="Container2">
         <div className="Box2">
           <h1>Awp - HQ</h1>
           <div className="YoutubeContainer">
             <iframe className="Youtube" src="https://www.youtube.com/embed/3WLcI1uSMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-        </div>
-      </div>
-
-      <div className="Container2">
-        <div className="Box2">
-          <h1>Upcoming Shows</h1>
-          <img src={f} className="wg" alt="f" width='280px'/>
         </div>
       </div>
 
@@ -54,13 +56,15 @@ function App() {
         </div>
       </div>
 
+
+      
+      <div className="Footer">
       <div className="logo">
         <div className="logoimg">
           <img src={logo} alt="logo"/>
         </div>
       </div>
-      
-      <div className="Footer">
+
         <h1>Social</h1>
         <a href="no_target">Facebook</a>
         <a href="no_target">Instagram</a>
