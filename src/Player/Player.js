@@ -8,7 +8,8 @@ export default function Player() {
             <h1>AWPERATION - HQ</h1>
                 <center>
                     <ReactPlayer    
-                        url='https://www.youtube.com/watch?v=3WLcI1uSMdI&list=PLvy4Kx3QEN5QEHxhS9DEa5_D16aMyE5zO' 
+                        url='https://www.youtube.com/watch?v=3WLcI1uSMdI&list=PLvy4Kx3QEN5QEHxhS9DEa5_D16aMyE5zO'
+                        width="70%" 
                     />
                  </center>
         </Media>

@@ -35,7 +35,6 @@ const Header = styled.div`
     height:auto;
     font-family:Times;
     padding:10vh;
-    width:100vw;
 `
 
 const Stay = styled.div`
@@ -55,5 +54,4 @@ const Nav = styled.a`
     font-weight:bold;
     color:white;
     text-decoration:none;
-    width:100vw;
 `
