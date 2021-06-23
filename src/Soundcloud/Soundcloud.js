@@ -1,4 +1,3 @@
-import { commentRegex } from 'convert-source-map'
 import React from 'react' 
 import ReactPlayer from 'react-player'
 import styled from 'styled-components'
@@ -21,4 +20,5 @@ const Container = styled.div`
     flex-direction:column;
     justify-content:center;
     background-color:black;
+    width:100%;
 `
