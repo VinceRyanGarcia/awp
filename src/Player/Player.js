@@ -9,7 +9,7 @@ export default function Player() {
                 <center>
                     <ReactPlayer    
                         url='https://www.youtube.com/watch?v=3WLcI1uSMdI&list=PLvy4Kx3QEN5QEHxhS9DEa5_D16aMyE5zO'
-                        width="96%" 
+                        width='98%'
                     />
                  </center>
         </Media>
@@ -17,5 +17,10 @@ export default function Player() {
 }
 
 const Media = styled.div`
-background-color:black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align:center;
+    background-color:black;
+    width:100%;
 `

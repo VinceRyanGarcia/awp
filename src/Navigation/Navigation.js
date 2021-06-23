@@ -9,11 +9,11 @@ export default function Navigation() {
             <div>
                 <img src={logo} alt='logo' width="100px"></img>
             </div>
-            {/* <Nav>
+            <Nav>
                 <a href="no_target">home</a>
                 <a href="no_target">contact</a>
                 <a href="no_target">stream</a>
-            </Nav> */}
+            </Nav>
         </Header>
         </>
     )

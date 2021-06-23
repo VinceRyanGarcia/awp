@@ -1,12 +1,12 @@
 import React from 'react'
-import AwpCover from "../Cover/AwpCover.jpg"
+import awp from "../Cover/awp.jpg"
 import styled from 'styled-components'
 
 export default function Cover() {
     return (
         <Content>
   
-            <img src={AwpCover} alt="AwpCover" width="100%"></img>
+            <img src={awp} alt="AwpCover" width="100%"></img>
         
         </Content>
     )

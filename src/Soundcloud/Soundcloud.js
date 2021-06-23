@@ -10,6 +10,7 @@ export default function Soundcloud() {
                     <ReactPlayer
                         url="https://soundcloud.com/iamawp/sets/the-awperating-room"
                         width="96%"
+                        background-color="black"
                     />  
                 </center>
         </Container>
@@ -20,6 +21,7 @@ const Container = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:center;
+    text-align:center;
     background-color:black;
     width:100%;
 `
