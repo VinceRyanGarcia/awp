@@ -59,9 +59,9 @@ function App() {
 
       
       <div className="Footer">
-      <div className="logo">
-        <div className="logoimg">
-          <img src={logo} alt="logo"/>
+        <div className="logo">
+          <div className="logoimg">
+            <img src={logo} alt="logo"/>
         </div>
       </div>
 
