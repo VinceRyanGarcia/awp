@@ -13,14 +13,19 @@ function App() {
         <center><img src={Pic1} alt="cover"/></center>
       </div>
 
-      <div className="YoutubeContainer">
-      <center><iframe className="Youtube" src="https://www.youtube.com/embed/3WLcI1uSMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      <div className="Container2">
+        <div className="Box2">
+          <h1>Awp - HQ</h1>
+          <div className="YoutubeContainer">
+            <iframe className="Youtube" src="https://www.youtube.com/embed/3WLcI1uSMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
       </div>
 
-      <div className="Container1">
-        <div className="Box">
+      <div className="Container2">
+        <div className="Box2">
           <h1>Upcoming Shows</h1>
-          <img src={f} alt="f" width='300px'/>
+          <img src={f} className="wg" alt="f" width='280px'/>
         </div>
       </div>
 

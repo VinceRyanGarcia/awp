@@ -118,33 +118,25 @@ a{
   margin:50px;
 }
 
-.Container1{
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  width:100%;
-  color:white;
-}
-
-.Box{
+.Box2{
   display:flex;
   flex-direction:column;
   align-items:center;
-  justify-content:center;
-}
-
-.Box2{
   color:White;
   width:80%;
   background-color:rgba(0, 0, 0, 0.397);
   margin-top:2vh;
   padding:2em;
+  border:1px solid white;
 }
 
 .Box2 h1{
   border-bottom:3px solid #be2a38;
 }
 
+.wg{
+  margin-top:2vh;
+}
 .Footer{
   margin-top:3vh;
   width:100%;
