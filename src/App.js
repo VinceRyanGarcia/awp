@@ -12,7 +12,15 @@ function App() {
       <div className="Cover">
         <center><img src={Pic1} alt="cover"/></center>
       </div>
+      <div className="Container1">
+        <div className="Box1">
+          <h1>test</h1>
+         <a href="no_target">test</a>
+         <a href="no_target">test</a>
+         <a href="no_target">test</a>
 
+         </div> 
+      </div>
       <div className="Container2">
         <div className="Box2">
           <h1>Awp - HQ</h1>
