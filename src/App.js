@@ -26,9 +26,12 @@ function App() {
       <div className="Container2">
         <div className="Box2">
           <h1>Upcoming Shows</h1>
-          <img src={f} className="wg" alt="f" width='280px'/>
+          <a href="http://smarturl.it/WolfgangAwpTix"><img src={f} className="wg" alt="f" width='280px'/></a>
+          <p>click image to purchase ticket</p>
         </div>
       </div>
+
+      
 
       <div className="Container2">
         <div className="Box2">

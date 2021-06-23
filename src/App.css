@@ -151,12 +151,17 @@ a{
   color:White;
   width:80%;
   background-color:#ffffff14;
-  margin-top:1vh;
-  padding:.5em;
+  margin-top:2vh;
 }
 
 .Box2 h1{
   border-bottom:3px solid #be2a38;
+}
+
+.BN{
+  padding:.75em;
+  font-weight:Bold;
+  background-color:Red;
 }
 
 .wg{
