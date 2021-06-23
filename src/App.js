@@ -3,7 +3,6 @@ import Navigation from './Navigation/Navigation'
 import Cover from './Cover/Cover'
 import Player from './Player/Player'
 import Footer from './Footer/Footer'
-import Soundcloud from './Soundcloud/Soundcloud';
 import styled from 'styled-components'
 
 
@@ -13,10 +12,9 @@ function App() {
     <div className="App">
       
         <Navigation></Navigation>
-        <Cover></Cover>
-        <Content>
+        <Content>  
+          <Cover></Cover>
           <Player></Player>
-          <Soundcloud></Soundcloud>
         </Content>
         <Footer></Footer>
       

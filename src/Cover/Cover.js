@@ -4,19 +4,17 @@ import styled from 'styled-components'
 
 export default function Cover() {
     return (
-        <Content>
-  
-            <img src={awp} alt="AwpCover" width="100%"></img>
-        
-        </Content>
+        <Img>
+          <img src={awp} alt="awp"></img>
+        </Img>
     )
 }
 
-const Content = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width:100%;
-    height:100vw;
-    background-color:black;
+const Img = styled.div`
+        display:flex;
+        flex-direction:center;
+        align-items:center;
+        justify-content:center;
+        background-color:red;
+        width:100%;
     `
