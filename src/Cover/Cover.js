@@ -16,7 +16,6 @@ const Content = styled.div`
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-top:-22vh;
     z-index:1;
     width:100%;
     `
