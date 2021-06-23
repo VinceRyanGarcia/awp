@@ -14,25 +14,20 @@ function App() {
       </div>
 
       <div className="Container1">
-
-        <div className="Box">
-        <h1>Embrace My Passion</h1>
-        <p>Taking music to the fullest potential, to invoke emotions in those who never knew they had them.</p>
-        </div>
-
-        <div className="Box">
-        <h1>Live Life in Beat</h1>
-        <p>I followed my dreams in playing across nightclubs in Los Angeles. Next, I'm headed for festivals around the world. </p>
-        </div>
-        
-        <div className="Box">
-        <h1>Be Inspired by Everything</h1>
-        <p>I find inspiration all around me.  I try to make my music representative of myself and my generation. I love the places that most people don't give a second glance.</p>
-        </div>
       </div>
 
       <div className="Container2">
+        <h1>Embrace My Passion</h1>
+        <p>Taking music to the fullest potential, to invoke emotions in those who never knew they had them.</p>
+      
+        <h1>Live Life in Beat</h1>
+        <p>I followed my dreams in playing across nightclubs in Los Angeles. Next, I'm headed for festivals around the world. </p>
+      
+        <h1>Be Inspired by Everything</h1>
+        <p>I find inspiration all around me.  I try to make my music representative of myself and my generation. I love the places that most people don't give a second glance.</p>
       </div>
+
+      
       
     
 

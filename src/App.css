@@ -91,17 +91,17 @@ select {
   width:100%;
   height:20vh;
 }
-.Container1{
-  display:flex;
-  width:100%;
-  height:20vh;
-  border:1px solid black;
-  color:blue;
-}
-
 .Container2{
   width:100%;
   height:40vh;
+  border:1px solid black;
+  color:blue;
+  text-align:center;
+}
+
+.Container1{
+  width:100%;
+  height:20vh;
   border:1px solid black;
   color:blue;
 }
@@ -113,11 +113,15 @@ select {
   height:20vh;
   border:1px solid black;
   color:blue;
+  text-align:center;
+}
+
+.Footer a{
+  margin:.5em;
 }
 
 .Box{
   width:100vw;
-  height:20vh;
   border:1px solid black;
   text-align:center;
   font-size:0.7em;
