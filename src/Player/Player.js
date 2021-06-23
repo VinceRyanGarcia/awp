@@ -9,7 +9,7 @@ export default function Player() {
                 <center>
                     <ReactPlayer    
                         url='https://www.youtube.com/watch?v=3WLcI1uSMdI&list=PLvy4Kx3QEN5QEHxhS9DEa5_D16aMyE5zO'
-                        width="70%" 
+                        width="80%" 
                     />
                  </center>
         </Media>
