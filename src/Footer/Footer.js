@@ -19,6 +19,9 @@ export default function Footer() {
             <Stay>
             CONTACT
             </Stay>
+            <Text>
+                Awp@Awperations.com
+            </Text>
         </Header>
         </>
     )
@@ -31,16 +34,15 @@ const Header = styled.div`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background-color:black;
+    background-color:#000000;
     height:auto;
-    font-family:Times;
-    padding:10vh;
+    font-family:arial;
+    padding:1vh;
 `
 
 const Stay = styled.div`
     display:flex;
     text-align:Center;
-    font-family:'times';
     font-weight:bold;
     justify-content:center;
     font-size:2em;
@@ -54,4 +56,13 @@ const Nav = styled.a`
     font-weight:bold;
     color:white;
     text-decoration:none;
+`
+
+const Text = styled.div`
+    display:flex;
+    justify-content:center;
+    color:white;
+    font-weight:bold;
+    font-family:'arial';
+    font-weight:1em;
 `

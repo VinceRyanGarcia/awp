@@ -9,7 +9,7 @@ export default function Soundcloud() {
                 <center>
                     <ReactPlayer
                         url="https://soundcloud.com/iamawp/sets/the-awperating-room"
-                        width="80%"
+                        width="96%"
                     />  
                 </center>
         </Container>
