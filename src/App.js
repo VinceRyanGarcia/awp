@@ -10,7 +10,7 @@ function App() {
     <div className="App">
 
       <div className="Cover">
-        <center><img src={banner} alt="cover"/></center>
+        <center><img id="bagel" src={banner} alt="cover"/></center>
       </div>
       {/* <div className="Container1">
         <div className="Box1">
@@ -69,11 +69,11 @@ function App() {
       </div>
 
         <h1>Social</h1>
-        <a href="no_target">Facebook</a>
-        <a href="no_target">Instagram</a>
-        <a href="no_target">Twitter</a>
-        <a href="no_target">Youtube</a>
-        <a href="no_target">Linkedin</a>
+        <a href="https://www.facebook.com/192783044856045">Facebook</a>
+        <a href="https://www.instagram.com/awpmid">Instagram</a>
+        <a href="https://twitter.com/awpmixes">Twitter</a>
+        <a href="https://www.youtube.com/Iamawp">Youtube</a>
+        <a href="https://www.linkedin.com/in/jefftye/">Linkedin</a>
 
         <h1>Contact</h1>
         <p>awp@awperations.com</p>

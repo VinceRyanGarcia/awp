@@ -99,12 +99,13 @@ a{
 
 .Cover{
   width:100%;
-  background-color:red;
+  background-color:black;
   color:white;
 }
 
 .Cover img{
   width:100%;
+  
 }
 /* .Container1{
   display:flex;
@@ -197,4 +198,10 @@ a{
 .Youtube{
   height:340px;
   width:340px;
+}
+
+@media screen and (min-width:767px){
+  #bagel{
+    content:url("./images/Pic1.jpg")
+  }
 }
