@@ -199,7 +199,7 @@ a{
   width:340px;
 }
 
-@media screen and (min-width:767px){
+@media screen and (min-width:1000px){
   #bagel{
     content:url("./images/Pic1.jpg")
   }
@@ -213,7 +213,7 @@ a{
   .Box2{
     display:flex;
     width:33%;
-    height:20vh; 
+    height:17vh; 
     margin:.5vh; 
   }
   .ContainerB{
@@ -223,7 +223,7 @@ a{
   .Box1{
     justify-content:space-evenly;
     width:98%;
-    height:40vh;
+    height:35vh;
   }
   .Youtube{
     height:360px;
