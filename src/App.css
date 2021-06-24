@@ -216,7 +216,7 @@ a{
   .Box2{
     display:flex;
     width:33%;
-    height:17vh; 
+    height:12vh; 
     margin:.5vh; 
   }
   .ContainerB{
@@ -226,7 +226,7 @@ a{
   .Box1{
     justify-content:space-evenly;
     width:98%;
-    height:35vh;
+    height:37vh;
   }
   .Youtube{
     height:360px;
