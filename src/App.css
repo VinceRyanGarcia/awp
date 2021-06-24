@@ -219,6 +219,6 @@ a{
     display:flex;
   }
   .Box1{
-    justify-content:center;
+    justify-content:space-evenly;
   }
 }
