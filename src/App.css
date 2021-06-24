@@ -199,7 +199,7 @@ a{
   width:340px;
 }
 
-@media screen and (min-width:1000px){
+@media screen and (min-width:1080px){
   #bagel{
     content:url("./images/Pic1.jpg")
   }
