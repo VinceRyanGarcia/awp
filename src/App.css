@@ -203,6 +203,9 @@ a{
   #bagel{
     content:url("./images/Pic1.jpg")
   }
+  .Cover{
+    margin-top:-13vh;
+  }
   .ContainerA{
     display:flex;
   }
