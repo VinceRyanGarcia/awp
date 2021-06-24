@@ -210,26 +210,30 @@ a{
     display:flex;
   }
   .Container2{
+    display:flex;
     flex-direction:row;
+    align-items:center;
     margin-top:1vh;
   }
   .Box2{
     display:flex;
     width:33%;
-    height:12vh; 
+    height:30vh; 
     margin:.5vh; 
   }
   .ContainerB{
     display:flex;
+    align-items:flex-start;
     margin-top:-2vh;
   }
   .Box1{
     justify-content:space-evenly;
     width:98%;
+    height: 50vh;
 
   }
   .Youtube{
-    height:360px;
+    height:330px;
     width:640px;
   }
 
