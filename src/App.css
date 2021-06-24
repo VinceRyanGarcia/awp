@@ -126,9 +126,8 @@ a{
   align-items:center;
   color:White;
   width:80%;
-  background-color:black;
+  background-color:#ffffff14;
   margin-top:2vh;
-  padding:2em;
 }
 
 .Box1 h1{
@@ -203,5 +202,23 @@ a{
 @media screen and (min-width:767px){
   #bagel{
     content:url("./images/Pic1.jpg")
+  }
+  .ContainerA{
+    display:flex;
+  }
+  .Container2{
+    flex-direction:row;
+  }
+  .Box2{
+    display:flex;
+    width:27%;
+    height:20vh; 
+    margin:1vh; 
+  }
+  .ContainerB{
+    display:flex;
+  }
+  .Box1{
+    justify-content:center;
   }
 }

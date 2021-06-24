@@ -23,26 +23,8 @@ function App() {
       </div> */}
       
 
-      <div className="Container2">
-        <div className="Box2">
-          <h1>Upcoming Shows</h1>
-          <a href="http://smarturl.it/WolfgangAwpTix"><img src={f} className="wg" alt="f" width='280px'/></a>
-          <p>click image to purchase ticket</p>
-        </div>
-      </div>
-
-      
-
-      <div className="Container2">
-        <div className="Box2">
-          <h1>Awp - HQ</h1>
-          <div className="YoutubeContainer">
-            <iframe className="Youtube" src="https://www.youtube.com/embed/3WLcI1uSMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-
-      <div className="Container2">
+      <div className="ContainerA">
+       <div className="Container2">
         <div className="Box2">
         <h1>Embrace My Passion</h1>
         <p>Taking music to the fullest potential, to invoke emotions in those who never knew they had them.</p>
@@ -56,6 +38,26 @@ function App() {
         <div className="Box2">
         <h1>Be Inspired by Everything</h1>
         <p>I find inspiration all around me.  I try to make my music representative of myself and my generation. I love the places that most people don't give a second glance.</p>
+        </div>
+      </div>
+      </div>
+
+      <div className="ContainerB">
+        <div className="Container2">
+          <div className="Box1">
+            <h1>Upcoming Shows</h1>
+            <a href="http://smarturl.it/WolfgangAwpTix"><img src={f} className="wg" alt="f" width='280px'/></a>
+            <p>click image to purchase ticket</p>
+          </div>
+        </div>
+        
+        <div className="Container2">
+          <div className="Box1">
+            <h1>Awp - HQ</h1>
+            <div className="YoutubeContainer">
+              <iframe className="Youtube" src="https://www.youtube.com/embed/3WLcI1uSMdI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
       </div>
 
